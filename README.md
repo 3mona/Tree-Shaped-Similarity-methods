@@ -19,8 +19,6 @@ The tree-shaped similarity algorithm consists of seven steps:
 5. Detecting contour of binary tree network
 6. Apply invariant moment technique and boundary unfolding approach for outer similarity analysis
 
-**NOTE:** Bounadry unfolding approach is based on countour detection and calculation of distances from the centroid to each boundary point
-the input image is the convered binary image.
 
 CNN Classification Model
 --------------------------------
@@ -44,6 +42,9 @@ The source code for this conversion is in file "BinaryImageConversionandInvarian
 ![Binary image with contour detection](https://github.com/3mona/Tree-Shaped-Similarity-methods/assets/123502514/365c67f2-6822-4be7-aa71-1be455f406a4)
 
 Boundary unfolding transformation process
---------------------------------
+------------------------------
+Bounadry unfolding approach is based on countour detection and calculation of distances from the centroid to each boundary point.
+the input image is the convered binary image.
+An example of a tree-shaped network shown in (a) where the boundary is divided into 360 points. The shape is transformed to an unfolded graph (b) and then the autocorrelation function is calculated as presented in (c) 
 ![Tree-shaped watershed network](https://github.com/3mona/Tree-Shaped-Similarity-methods/assets/123502514/103776ad-f86f-4d2b-8105-74171b579d92)
 
